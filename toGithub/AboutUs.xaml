@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="CSCapstone.AboutUs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CSCapstone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightGoldenrodYellow">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,44,0,0" Text="About Auto Kings" TextWrapping="Wrap" VerticalAlignment="Top" Height="112" Width="444" FontFamily="Castellar" FontSize="36"/>
+        <RichTextBlock HorizontalAlignment="Left" Height="182" Margin="92,141,0,0" VerticalAlignment="Top" Width="298" SelectionChanged="RichTextBlock_SelectionChanged" FontFamily="Century">
+            <Paragraph>
+                <Run Text="Since 1995, Auto Kings has been committed to providing excellent customer services as well as vehicles to our customers.We pride ourselves on putting our customers first before profits which is pay commission to our sales representatives. We want you to leave feeling that you got what you wanted, not a vehicle you were pressured into buying." FontFamily="Century"/>
+
+            </Paragraph>
+        </RichTextBlock>
+        <Button x:Name="button" Content="Main Menu" HorizontalAlignment="Left" Margin="144,376,0,0" VerticalAlignment="Top" FontFamily="Castellar" Click="button_Click"/>
+        <Button x:Name="button1" Content="Log Out" HorizontalAlignment="Left" Margin="158,435,0,0" VerticalAlignment="Top" FontFamily="Castellar" Click="button1_Click"/>
+
+    </Grid>
+</Page>
